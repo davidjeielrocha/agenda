@@ -2,12 +2,12 @@
 
 ### Atividade ativa
 Criar um código (em Python) de uma agenda que possa:
-* inserir,
-* apagar,
-* alterar,
-* listar,
-* gravar e
-* ler os dados cadastrados.
+- [x] inserir,
+- [x] apagar,
+- [x] alterar,
+- [x] listar,
+- [x] gravar e
+- [x] ler os dados cadastrados.
 
 Requisitos:
 
