@@ -6,12 +6,12 @@ def adicionar_contato(agenda, nome, tipo_telefone, telefone):
         return
     agenda.append({"nome": nome, "tipo_telefone": tipo_telefone, "telefone": telefone})
 
-def gravar_agenda(agenda, nome_arquivo="agenda.txt"):
+def gravar_agenda(agenda, nome_arquivo="David_Jeiel_De_Araujo_Rocha.txt"):
     with open(nome_arquivo, "w") as arquivo:
         for contato in agenda:
             arquivo.write(f"{contato['nome']},{contato['tipo_telefone']},{contato['telefone']}\n")
 
-def ler_agenda(nome_arquivo="agenda.txt"):
+def ler_agenda(nome_arquivo="David_Jeiel_De_Araujo_Rocha.txt"):
     agenda = []
     if os.path.exists(nome_arquivo):
         with open(nome_arquivo, "r") as arquivo:
